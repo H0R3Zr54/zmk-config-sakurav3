@@ -1,0 +1,5 @@
+config SHIELD_SAKURA_LEFT
+    def_bool $(shields_list_contains,sakura_left)
+
+config SHIELD_SAKURA_RIGHT
+    def_bool $(shields_list_contains,sakura_right)

@@ -1,0 +1,16 @@
+if SHIELD_SAKURA_LEFT
+
+config ZMK_KEYBOARD_NAME
+    default "Sakura"
+
+config ZMK_SPLIT_ROLE_CENTRAL
+    default y
+
+endif
+
+if SHIELD_SAKURA_LEFT || SHIELD_SAKURA_RIGHT
+
+config ZMK_SPLIT
+    default y
+
+endif
